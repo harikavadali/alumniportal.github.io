@@ -1,0 +1,94 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:white;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 387px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 50px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: black;  
+    padding: 20px;  
+}  
+label{  
+    color: black;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 240px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 10px;  
+}  
+#Pass{  
+    width: 240px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 240px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: black;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    padding-left: 7px; 
+      
+    background-color: teal;  
+}  
+.container {
+    position: relative;
+  }
+  .select-checkbox {
+    display: none;
+  }
+  .select-label {
+    display: block;
+    border: 1px solid;
+    padding: 4px;
+  }
+  .select-label:before {
+    content: "\25BE";
+    float: right;
+  }
+  .select-wrap {
+    position: absolute;
+    width: 100%;
+    background: #eee;
+    display: none;
+  }
+  .select-checkbox:checked ~ .select-wrap {
+    display: block;
+  }
+  .select {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
+  .select a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
